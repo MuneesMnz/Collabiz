@@ -11,8 +11,19 @@ const Servicessection = () => {
       </div>
       <div className=" xl:w-[1200px] max-md:w-full px-10 max-md:px-5 max-sm:grid-cols-1 mx-auto grid grid-cols-4 max-lg:grid-cols-2 gap-10">
         {data.map((item, ind) => (
-          <div key={ind} className="w-full h-[400px] bg-white p-5 rounded-md shadow-md
-           hover:shadow-xl cursor-pointer duration-300">{item}</div>
+          <div
+            key={ind}
+            className="w-full h-[400px] bg-white p-5 rounded-md shadow-md
+           hover:shadow-xl cursor-pointer duration-300"
+          >
+            <div className="text-xl mb-10">hello </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos nobis cum, odit velit expedita eum laboriosam ullam culpa ex,
+              neque enim, totam itaque labore delectus? Numquam odit maiores
+              sapiente!
+            </p>
+          </div>
         ))}
       </div>
     </div>
