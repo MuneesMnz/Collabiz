@@ -10,6 +10,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   height: 2000px;
+  scroll-behavior: smooth;
+}
+
+
+.about-box-container:hover .icon {
+  filter: brightness(0) invert(1);
 }
